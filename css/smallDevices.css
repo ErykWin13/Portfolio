@@ -1,0 +1,177 @@
+/* HEADER  */
+
+@media (min-width:768px) {
+    header .name h1 {
+        font-size: 4rem;
+    }
+
+    header .name {
+        padding: 40px 0;
+    }
+
+    header .welcome {
+        padding: 30px 0;
+    }
+
+    header .welcome button {
+        padding: 10px 25px;
+        border: 3px solid #eee;
+        font-size: 3rem;
+    }
+}
+
+/* BURGER MENU  */
+
+@media (min-width:768px) {
+    .burger {
+        width: 50px;
+        height: 50px;
+    }
+
+    .burger i {
+        font-size: 4.5rem;
+        line-height: 50px;
+    }
+}
+
+/* NAV  */
+
+@media (min-width:768px) {
+    nav a {
+        font-size: 3rem;
+    }
+}
+
+/* SECTION ABOUT ME  */
+
+@media (min-width:768px) {
+    .about-me h2 {
+        font-size: 4.5rem;
+    }
+
+    .about-me .info-about-me .photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-me .info-about-me .text p {
+        font-size: 2.5rem;
+    }
+}
+
+/* SECTION SKILLS  */
+
+@media (min-width:768px) {
+    .skills h2 {
+        font-size: 4.5rem;
+    }
+
+    .skills .all-skills .html,
+    .skills .all-skills .css,
+    .skills .all-skills .js,
+    .skills .all-skills .sass,
+    .skills .all-skills .react,
+    .skills .all-skills .git {
+        flex-direction: row;
+    }
+
+    .skills .all-skills img {
+        width: 40%;
+    }
+
+    .skills .all-skills p {
+        font-size: 2.5rem;
+    }
+}
+
+/* SECTION QUOTES  */
+
+@media (min-width:768px) {
+    .quotes h2 {
+        font-size: 4.5rem;
+    }
+
+    .quotes .first-quot p,
+    .quotes .second-quot p,
+    .quotes .third-quot p {
+        font-size: 3.8rem;
+    }
+
+}
+
+/* SECTION PROJECTS  */
+
+@media (min-width:768px) {
+    .projects h2 {
+        font-size: 4.5rem;
+    }
+
+    .projects .all-projects .project-1 {
+        border: 3px solid #eee;
+    }
+
+    .projects .all-projects .project-2,
+    .projects .all-projects .project-3,
+    .projects .all-projects .project-4 {
+        border: 3px solid #eee;
+    }
+
+    .projects .all-projects .project-1 p.live,
+    .projects .all-projects .project-2 p.live,
+    .projects .all-projects .project-3 p.live,
+    .projects .all-projects .project-4 p.live {
+        border-top: 3px solid #eee;
+        border-bottom: 3px solid #eee;
+        font-size: 3.2rem;
+    }
+
+    .projects .all-projects .project-1 h3,
+    .projects .all-projects .project-2 h3,
+    .projects .all-projects .project-3 h3,
+    .projects .all-projects .project-4 h3 {
+        border-bottom: 3px solid #eee;
+        font-size: 3.5rem;
+    }
+
+    .projects .all-projects .project-1 p.code,
+    .projects .all-projects .project-2 p.code,
+    .projects .all-projects .project-3 p.code,
+    .projects .all-projects .project-4 p.code {
+        border-bottom: 3px solid #eee;
+        font-size: 3.2rem;
+    }
+
+    .projects .all-projects .project-1 p.txt,
+    .projects .all-projects .project-2 p.txt,
+    .projects .all-projects .project-3 p.txt,
+    .projects .all-projects .project-4 p.txt {
+        font-size: 2.5rem;
+    }
+}
+
+/* FOOTER  */
+
+@media (min-width:768px) {
+    footer h2 {
+        font-size: 3.5rem;
+    }
+
+    footer .contact .mail h3,
+    footer .contact .github h3 {
+        font-size: 3rem;
+    }
+
+    footer .contact .mail i,
+    footer .contact .github i {
+        font-size: 5.7rem;
+    }
+
+    footer .contact .mail p,
+    footer .contact .github p {
+        font-size: 2.2rem;
+    }
+
+    footer p.footer {
+        font-size: 2rem;
+    }
+}

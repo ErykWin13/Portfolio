@@ -222,7 +222,8 @@ nav a:hover {
     margin: 0 0 5% 0;
     border-radius: 3%;
     background-color: #eee;
-    transform: scale(0);
+    transform: scale(.3);
+    opacity: 0;
     transition: .4s linear;
 }
 
@@ -236,7 +237,8 @@ nav a:hover {
     margin: 5% 0 5% 0;
     border-radius: 3%;
     background-color: #eee;
-    transform: scale(0);
+    transform: scale(.3);
+    opacity: 0;
     transition: .4s linear;
 }
 
@@ -247,7 +249,8 @@ nav a:hover {
     margin: 5% 0 0 0;
     border-radius: 3%;
     background-color: #eee;
-    transform: scale(0);
+    transform: scale(.3);
+    opacity: 0;
     transition: .4s linear;
 }
 
@@ -258,6 +261,7 @@ nav a:hover {
 .skills .all-skills .react.active,
 .skills .all-skills .git.active {
     transform: scale(1);
+    opacity: 1;
 }
 
 .skills .all-skills .html {
@@ -375,33 +379,39 @@ nav a:hover {
 }
 
 .quotes .first-quot p {
-    left: -100%;
+    left: -50%;
+    opacity: 0;
 }
 
 .quotes .second-quot p {
-    right: -100%;
+    right: -50%;
+    opacity: 0;
 }
 
 .quotes .third-quot p {
-    left: -100%;
+    left: -50%;
+    opacity: 0;
 }
 
 .quotes .first-quot p.active {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 .quotes .second-quot p.active {
     right: 50%;
     top: 50%;
     transform: translate(50%, -50%);
+    opacity: 1;
 }
 
 .quotes .third-quot p.active {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    opacity: 1;
 }
 
 /* SECTION PROJECTS  */
@@ -601,5 +611,11 @@ footer p.footer {
 
     100% {
         background-position: 3000px 0;
+    }
+}
+
+@media(prefers-reduced-motion) {
+    .wrapper {
+        animation-name: dissolve;
     }
 }

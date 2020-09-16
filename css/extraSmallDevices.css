@@ -80,7 +80,7 @@ header .welcome button:hover {
     padding: 0 5%;
     overflow: hidden;
     background-image: url(../img/stars-964022_1280.png);
-    animation: bgc 120s linear infinite;
+    animation: background-animation 120s linear infinite;
 }
 
 /* BURGER MENU  */
@@ -596,7 +596,7 @@ footer p.footer {
 
 /* KEYFRAMES  */
 
-@keyframes bgc {
+@keyframes background-animation {
     0% {
         background-position: 0 0;
     }

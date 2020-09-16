@@ -38,7 +38,7 @@
 
 @media (min-width:768px) {
     nav a {
-        font-size: 3rem;
+        font-size: 2.7rem;
     }
 }
 
@@ -46,7 +46,7 @@
 
 @media (min-width:768px) {
     .about-me h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .about-me .info-about-me .photo {
@@ -55,7 +55,7 @@
     }
 
     .about-me .info-about-me .text p {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 }
 
@@ -63,7 +63,7 @@
 
 @media (min-width:768px) {
     .skills h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .skills .all-skills .html,
@@ -80,7 +80,7 @@
     }
 
     .skills .all-skills p {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 }
 
@@ -88,13 +88,13 @@
 
 @media (min-width:768px) {
     .quotes h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .quotes .first-quot p,
     .quotes .second-quot p,
     .quotes .third-quot p {
-        font-size: 3.8rem;
+        font-size: 2.1rem;
     }
 
 }
@@ -103,7 +103,7 @@
 
 @media (min-width:768px) {
     .projects h2 {
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
 
     .projects .all-projects .project-1 {
@@ -122,7 +122,7 @@
     .projects .all-projects .project-4 p.live {
         border-top: 3px solid #eee;
         border-bottom: 3px solid #eee;
-        font-size: 3.2rem;
+        font-size: 2.1rem;
     }
 
     .projects .all-projects .project-1 h3,
@@ -130,7 +130,7 @@
     .projects .all-projects .project-3 h3,
     .projects .all-projects .project-4 h3 {
         border-bottom: 3px solid #eee;
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
 
     .projects .all-projects .project-1 p.code,
@@ -138,14 +138,14 @@
     .projects .all-projects .project-3 p.code,
     .projects .all-projects .project-4 p.code {
         border-bottom: 3px solid #eee;
-        font-size: 3.2rem;
+        font-size: 2.1rem;
     }
 
     .projects .all-projects .project-1 p.txt,
     .projects .all-projects .project-2 p.txt,
     .projects .all-projects .project-3 p.txt,
     .projects .all-projects .project-4 p.txt {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 }
 
@@ -153,12 +153,12 @@
 
 @media (min-width:768px) {
     footer h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     footer .contact .mail h3,
     footer .contact .github h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     footer .contact .mail i,
@@ -168,7 +168,7 @@
 
     footer .contact .mail p,
     footer .contact .github p {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     footer p.footer {

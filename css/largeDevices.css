@@ -11,6 +11,16 @@
     }
 }
 
+
+/* NAV */
+
+@media (min-width:1200px) {
+    nav a {
+        font-size: 3rem;
+    }
+}
+
+
 /* SECTION ABOUT ME  */
 
 @media (min-width:1200px) {
@@ -20,7 +30,7 @@
 
     .about-me h2 {
         margin-bottom: 5%;
-        font-size: 6.5rem;
+        font-size: 5.6rem;
     }
 
     .about-me .info-about-me .photo {
@@ -38,7 +48,7 @@
 
     .skills h2 {
         margin-bottom: 5%;
-        font-size: 6.5rem;
+        font-size: 5.6rem;
     }
 
     .skills .all-skills {
@@ -74,19 +84,19 @@
 
     .quotes h2 {
         margin-bottom: 5%;
-        font-size: 6.5rem;
+        font-size: 5.6rem;
     }
 
     .quotes .first-quot,
     .quotes .second-quot,
     .quotes .third-quot {
-        height: 17vh;
+        height: 12vh;
     }
 
     .quotes .first-quot p,
     .quotes .second-quot p,
     .quotes .third-quot p {
-        font-size: 5rem;
+        font-size: 3.7rem;
     }
 }
 
@@ -97,13 +107,9 @@
         padding: 8% 5% 10% 5%;
     }
 
-    .projects {
-        padding: 15% 5% 5% 5%;
-    }
-
     .projects h2 {
         margin-bottom: 5%;
-        font-size: 6.5rem;
+        font-size: 5.6rem;
     }
 
     .projects .all-projects {
@@ -141,7 +147,7 @@
     .projects .all-projects .project-2 h3,
     .projects .all-projects .project-3 h3,
     .projects .all-projects .project-4 h3 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 }
 
@@ -155,7 +161,7 @@
 
     footer h2 {
         padding-top: 2%;
-        font-size: 4rem;
+        font-size: 3.6rem;
     }
 
     footer .contact .mail,
@@ -165,7 +171,7 @@
 
     footer .contact .mail h3,
     footer .contact .github h3 {
-        font-size: 3.2rem;
+        font-size: 2.9rem;
     }
 
     footer .contact .mail i,
@@ -176,7 +182,7 @@
 
     footer .contact .mail p,
     footer .contact .github p {
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 
     footer p.footer {

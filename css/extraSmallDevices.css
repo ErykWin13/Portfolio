@@ -1,4 +1,4 @@
-/* font-family: 'Yanone Kaffeesatz', sans-serif; 
+/* font-family: 'Chakra Petch', sans-serif;
 font-family: 'Fjalla One', sans-serif;
 */
 
@@ -10,7 +10,7 @@ font-family: 'Fjalla One', sans-serif;
 
 html {
     font-size: 10px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 body {
@@ -128,7 +128,7 @@ nav.active {
 nav a {
     padding: 2px 0;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     color: #eee;
     text-decoration: none;
     text-transform: uppercase;
@@ -149,7 +149,7 @@ nav a:hover {
 .about-me h2 {
     margin-bottom: 10%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: white;
     text-transform: uppercase;
 }
@@ -184,7 +184,7 @@ nav a:hover {
     position: relative;
     right: -100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
     letter-spacing: 1px;
     line-height: 140%;
@@ -205,7 +205,7 @@ nav a:hover {
 .skills h2 {
     margin-bottom: 10%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.6rem;
     color: white;
     text-transform: uppercase;
 }
@@ -317,7 +317,7 @@ nav a:hover {
 .skills .all-skills p {
     padding: 5%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
 }
 
@@ -331,7 +331,7 @@ nav a:hover {
     margin-bottom: 10%;
     text-align: center;
     color: #eee;
-    font-size: 3rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
 }
 
@@ -339,7 +339,7 @@ nav a:hover {
 .quotes .second-quot,
 .quotes .third-quot {
     width: 100%;
-    height: 15vh;
+    height: 12vh;
     margin: 0 auto 5% auto;
     padding: 2%;
     background-size: cover;
@@ -369,7 +369,7 @@ nav a:hover {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     color: white;
     transition: .7s;
 }
@@ -414,7 +414,7 @@ nav a:hover {
     margin-bottom: 10%;
     text-align: center;
     color: #eee;
-    font-size: 3rem;
+    font-size: 2.6rem;
     text-transform: uppercase;
 }
 
@@ -469,9 +469,9 @@ nav a:hover {
     border-bottom: 2px solid #eee;
     background-color: #222;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     color: #eee;
-    line-height: 150%;
+    line-height: 200%;
 }
 
 .projects .all-projects .project-1 h3,
@@ -481,9 +481,9 @@ nav a:hover {
     border-bottom: 2px solid #eee;
     background-color: #222;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #eee;
-    line-height: 150%;
+    line-height: 200%;
 }
 
 .projects .all-projects .project-1 a,
@@ -500,9 +500,9 @@ nav a:hover {
     border-bottom: 2px solid #eee;
     background-color: #222;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     color: #eee;
-    line-height: 150%;
+    line-height: 200%;
 }
 
 .projects .all-projects .project-1 p.txt,
@@ -511,7 +511,7 @@ nav a:hover {
 .projects .all-projects .project-4 p.txt {
     padding: 2%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .projects .all-projects p.txt span.html {
@@ -527,7 +527,7 @@ nav a:hover {
 }
 
 .projects .all-projects p.txt span.react {
-    color: #61dafc;
+    color: #41bada;
 }
 
 /* FOOTER  */
@@ -541,7 +541,7 @@ footer {
 
 footer h2 {
     padding-top: 5%;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 footer .contact {
@@ -563,7 +563,7 @@ footer .contact .github {
 
 footer .contact .mail h3,
 footer .contact .github h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 footer .contact .mail i,
@@ -575,7 +575,7 @@ footer .contact .github i {
 
 footer .contact .mail p,
 footer .contact .github p {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 footer p.footer {

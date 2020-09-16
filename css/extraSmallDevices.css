@@ -187,7 +187,7 @@ nav a:hover {
 .about-me .info-about-me .text p {
     position: relative;
     right: -100%;
-    text-align: center;
+    text-align: justify;
     font-size: 1.6rem;
     color: white;
     letter-spacing: 1px;

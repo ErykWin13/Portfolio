@@ -39,6 +39,7 @@
     }
 }
 
+
 /* SECTION SKILLS  */
 
 @media (min-width:1200px) {
@@ -55,9 +56,9 @@
         justify-content: center;
     }
 
-    .skills .all-skills :nth-child(1),
-    .skills .all-skills :nth-of-type(2),
-    .skills .all-skills :nth-of-type(3) {
+    .skills .all-skills .html,
+    .skills .all-skills .css,
+    .skills .all-skills .js {
         flex-direction: column;
         width: 29%;
         margin: 0 2% 0 2%;
@@ -74,6 +75,7 @@
         width: 30%;
     }
 }
+
 
 /* SECTION QUOTES  */
 
@@ -100,6 +102,7 @@
     }
 }
 
+
 /* SECTION PROJECTS  */
 
 @media (min-width:1200px) {
@@ -110,14 +113,6 @@
     .projects h2 {
         margin-bottom: 5%;
         font-size: 5.6rem;
-    }
-
-    .projects .all-projects {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin: 3% 0 3% 0;
     }
 
     .projects .all-projects {
@@ -150,6 +145,7 @@
         font-size: 3.5rem;
     }
 }
+
 
 /* FOOTER  */
 

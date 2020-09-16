@@ -20,6 +20,7 @@
     }
 }
 
+
 /* BURGER MENU  */
 
 @media (min-width:1024px) {
@@ -35,6 +36,7 @@
     }
 }
 
+
 /* NAV */
 
 @media (min-width:1024px) {
@@ -48,6 +50,7 @@
         font-size: 3.6rem;
     }
 }
+
 
 /* SECTION ABOUT ME */
 
@@ -67,6 +70,7 @@
     }
 }
 
+
 /* SECTION SKILLS */
 
 @media (min-width:1024px) {
@@ -80,8 +84,8 @@
         justify-content: space-around;
     }
 
-    .skills .all-skills :nth-child(1),
-    .skills .all-skills :nth-of-type(2) {
+    .skills .all-skills .html,
+    .skills .all-skills .css {
         flex-direction: column;
         width: 45%;
         margin: 0 0 5% 0;
@@ -104,6 +108,7 @@
     }
 }
 
+
 /* SECTION QUOTES  */
 
 @media (min-width:1024px) {
@@ -118,6 +123,7 @@
     }
 }
 
+
 /* SECTION PROJECTS */
 
 @media (min-width:1024px) {
@@ -126,18 +132,18 @@
 
     }
 
-    .projects .all-projects .project-1 p.live,
-    .projects .all-projects .project-2 p.live,
-    .projects .all-projects .project-3 p.live,
-    .projects .all-projects .project-4 p.live {
-        font-size: 2.6rem;
-    }
-
     .projects .all-projects .project-1 h3,
     .projects .all-projects .project-2 h3,
     .projects .all-projects .project-3 h3,
     .projects .all-projects .project-4 h3 {
         font-size: 4rem;
+    }
+
+    .projects .all-projects .project-1 p.live,
+    .projects .all-projects .project-2 p.live,
+    .projects .all-projects .project-3 p.live,
+    .projects .all-projects .project-4 p.live {
+        font-size: 2.6rem;
     }
 
     .projects .all-projects .project-1 p.code,
@@ -154,6 +160,7 @@
         font-size: 2.4rem;
     }
 }
+
 
 /* FOOTER  */
 

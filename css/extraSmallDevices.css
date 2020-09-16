@@ -17,6 +17,7 @@ body {
     background-color: #222;
 }
 
+
 /* HEADER */
 
 header {
@@ -74,6 +75,7 @@ header .welcome button:hover {
     color: lightgray;
 }
 
+
 /* WRAPPER  */
 
 .wrapper {
@@ -83,12 +85,13 @@ header .welcome button:hover {
     animation: background-animation 120s linear infinite;
 }
 
+
 /* BURGER MENU  */
 
 .burger {
     position: fixed;
-    right: 2.2%;
     top: .9%;
+    right: 2.2%;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -103,6 +106,7 @@ header .welcome button:hover {
     transition: .2s linear;
 }
 
+
 /* NAV  */
 
 nav,
@@ -111,12 +115,12 @@ nav.active {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    right: -100%;
     top: 0;
+    right: -100%;
     width: 100%;
     padding: 10px 0;
-    transition: .6s;
     z-index: 1;
+    transition: .6s;
 }
 
 nav.active {
@@ -167,8 +171,8 @@ nav a:hover {
     margin-bottom: 5%;
     border-radius: 50%;
     box-shadow: 0 0 2px 2px #eee;
-    transition: .7s;
     overflow: hidden;
+    transition: .7s;
 }
 
 .about-me .info-about-me .photo img {
@@ -195,6 +199,7 @@ nav a:hover {
     right: 50%;
     transform: translateX(50%);
 }
+
 
 /* SECTION SKILLS  */
 
@@ -229,7 +234,6 @@ nav a:hover {
 
 .skills .all-skills .css,
 .skills .all-skills .js,
-.skills .all-skills .sass,
 .skills .all-skills .react {
     display: flex;
     flex-direction: column;
@@ -257,7 +261,6 @@ nav a:hover {
 .skills .all-skills .html.active,
 .skills .all-skills .css.active,
 .skills .all-skills .js.active,
-.skills .all-skills .sass.active,
 .skills .all-skills .react.active,
 .skills .all-skills .git.active {
     transform: scale(1);
@@ -274,10 +277,6 @@ nav a:hover {
 
 .skills .all-skills .js {
     box-shadow: 0 0 3px 3px #df9e27;
-}
-
-.skills .all-skills .sass {
-    box-shadow: 0 0 3px 3px #964870;
 }
 
 .skills .all-skills .react {
@@ -300,10 +299,6 @@ nav a:hover {
     box-shadow: 0 0 5px 5px #df9e27;
 }
 
-.skills .all-skills .sass:hover {
-    box-shadow: 0 0 5px 5px #964870;
-}
-
 .skills .all-skills .react:hover {
     box-shadow: 0 0 5px 5px #61dafc;
 }
@@ -324,6 +319,7 @@ nav a:hover {
     font-size: 1.6rem;
     letter-spacing: 1px;
 }
+
 
 /* SECTION QUOTES  */
 
@@ -378,7 +374,8 @@ nav a:hover {
     transition: .7s;
 }
 
-.quotes .first-quot p {
+.quotes .first-quot p,
+.quotes .third-quot p {
     left: -50%;
     opacity: 0;
 }
@@ -388,12 +385,8 @@ nav a:hover {
     opacity: 0;
 }
 
-.quotes .third-quot p {
-    left: -50%;
-    opacity: 0;
-}
-
-.quotes .first-quot p.active {
+.quotes .first-quot p.active,
+.quotes .third-quot p.active {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -407,12 +400,6 @@ nav a:hover {
     opacity: 1;
 }
 
-.quotes .third-quot p.active {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 1;
-}
 
 /* SECTION PROJECTS  */
 
@@ -436,9 +423,9 @@ nav a:hover {
 .projects .all-projects .project-1 {
     width: 100%;
     margin: 0 0 5% 0;
+    border: 2px solid #eee;
     background-color: #eee;
     overflow: hidden;
-    border: 2px solid #eee;
 }
 
 .projects .all-projects .project-2,
@@ -446,9 +433,21 @@ nav a:hover {
 .projects .all-projects .project-4 {
     width: 100%;
     margin: 5% 0;
+    border: 2px solid #eee;
     background-color: #eee;
     overflow: hidden;
-    border: 2px solid #eee;
+}
+
+.projects .all-projects .project-1 h3,
+.projects .all-projects .project-2 h3,
+.projects .all-projects .project-3 h3,
+.projects .all-projects .project-4 h3 {
+    border-bottom: 2px solid #eee;
+    background-color: #222;
+    text-align: center;
+    color: #eee;
+    font-size: 2rem;
+    line-height: 200%;
 }
 
 .projects .all-projects .project-1 img,
@@ -457,18 +456,25 @@ nav a:hover {
 .projects .all-projects .project-4 img {
     display: block;
     width: 100%;
-    opacity: .8;
-    transition: .3s linear;
-    z-index: -1;
     transform: scale(1);
+    opacity: .8;
+    z-index: -1;
+    transition: .3s linear;
 }
 
 .projects .all-projects .project-1 img:hover,
 .projects .all-projects .project-2 img:hover,
 .projects .all-projects .project-3 img:hover,
 .projects .all-projects .project-4 img:hover {
-    opacity: 1;
     transform: scale(1.05);
+    opacity: 1;
+}
+
+.projects .all-projects .project-1 a,
+.projects .all-projects .project-2 a,
+.projects .all-projects .project-3 a,
+.projects .all-projects .project-4 a {
+    text-decoration: none;
 }
 
 .projects .all-projects .project-1 p.live,
@@ -479,28 +485,9 @@ nav a:hover {
     border-bottom: 2px solid #eee;
     background-color: #222;
     text-align: center;
+    color: #eee;
     font-size: 1.6rem;
-    color: #eee;
     line-height: 200%;
-}
-
-.projects .all-projects .project-1 h3,
-.projects .all-projects .project-2 h3,
-.projects .all-projects .project-3 h3,
-.projects .all-projects .project-4 h3 {
-    border-bottom: 2px solid #eee;
-    background-color: #222;
-    text-align: center;
-    font-size: 2rem;
-    color: #eee;
-    line-height: 200%;
-}
-
-.projects .all-projects .project-1 a,
-.projects .all-projects .project-2 a,
-.projects .all-projects .project-3 a,
-.projects .all-projects .project-4 a {
-    text-decoration: none;
 }
 
 .projects .all-projects .project-1 p.code,
@@ -540,6 +527,7 @@ nav a:hover {
     color: #41bada;
 }
 
+
 /* FOOTER  */
 
 footer {
@@ -578,8 +566,8 @@ footer .contact .github h3 {
 
 footer .contact .mail i,
 footer .contact .github i {
-    font-size: 3.5rem;
     color: #eee;
+    font-size: 3.5rem;
     line-height: 150%;
 }
 
@@ -593,6 +581,7 @@ footer p.footer {
     font-size: 1.3rem;
     font-family: 'Fjalla One', sans-serif;
 }
+
 
 /* KEYFRAMES  */
 

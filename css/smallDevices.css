@@ -20,6 +20,7 @@
     }
 }
 
+
 /* BURGER MENU  */
 
 @media (min-width:768px) {
@@ -34,6 +35,7 @@
     }
 }
 
+
 /* NAV  */
 
 @media (min-width:768px) {
@@ -41,6 +43,7 @@
         font-size: 2.7rem;
     }
 }
+
 
 /* SECTION ABOUT ME  */
 
@@ -58,6 +61,7 @@
         font-size: 2.1rem;
     }
 }
+
 
 /* SECTION SKILLS  */
 
@@ -84,6 +88,7 @@
     }
 }
 
+
 /* SECTION QUOTES  */
 
 @media (min-width:768px) {
@@ -98,6 +103,7 @@
     }
 
 }
+
 
 /* SECTION PROJECTS  */
 
@@ -116,6 +122,14 @@
         border: 3px solid #eee;
     }
 
+    .projects .all-projects .project-1 h3,
+    .projects .all-projects .project-2 h3,
+    .projects .all-projects .project-3 h3,
+    .projects .all-projects .project-4 h3 {
+        border-bottom: 3px solid #eee;
+        font-size: 3.2rem;
+    }
+
     .projects .all-projects .project-1 p.live,
     .projects .all-projects .project-2 p.live,
     .projects .all-projects .project-3 p.live,
@@ -123,14 +137,6 @@
         border-top: 3px solid #eee;
         border-bottom: 3px solid #eee;
         font-size: 2.1rem;
-    }
-
-    .projects .all-projects .project-1 h3,
-    .projects .all-projects .project-2 h3,
-    .projects .all-projects .project-3 h3,
-    .projects .all-projects .project-4 h3 {
-        border-bottom: 3px solid #eee;
-        font-size: 3.2rem;
     }
 
     .projects .all-projects .project-1 p.code,
@@ -148,6 +154,7 @@
         font-size: 2.1rem;
     }
 }
+
 
 /* FOOTER  */
 
